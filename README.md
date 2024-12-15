@@ -60,6 +60,8 @@ Towards the end, prices trend downward, indicating a potential correction or red
 
 ![ELK 1](https://github.com/user-attachments/assets/1c129a68-4b27-403d-85d4-e498bf5ef1da)
 
+
+
 2. What is the trading volume distribution across different 3-minute intervals?
 
 **Trading Volume Analysis**
@@ -73,6 +75,8 @@ Post-12:40, there is a significant drop in volume, suggesting reduced market par
 **Insight:** This graph highlights periods of peak trading activity, which could help pinpoint significant market events, announcements, or active participation windows.
 
 ![ELK 2](https://github.com/user-attachments/assets/8693b9ef-e680-472f-a4d2-21db2cd7b73b)
+
+
 
 3. What is the trend of deliverable volumes over 5-minute intervals?
 
@@ -90,6 +94,8 @@ At 12:45 and 12:50, the values show a slight recovery but remain lower compared 
 
 ![ELK 3](https://github.com/user-attachments/assets/639d97f5-5376-41a5-920a-e916dd9cf8a4)
 
+
+
 4. How do deliverable volumes change over time, and what patterns can be observed in the moving average?
 
 **Moving Average of Volume Deliverables**
@@ -104,6 +110,8 @@ Minor fluctuations are observed toward the end, but overall the values remain co
 
 ![ELK 4](https://github.com/user-attachments/assets/53ed9be2-d5fe-4f61-a0cd-624049d3022e)
 
+
+
 5. How are the open prices correlated with the median close prices?
 
 **Open vs Close Price Correlation**
@@ -117,6 +125,8 @@ The graph highlights consistent behavior, with most data points showing close pr
 **Insight:** This graph confirms a strong positive correlation between open and close prices. It suggests that stocks tend to close higher or at levels proportional to their open price.
 
 ![ELK 5](https://github.com/user-attachments/assets/3cd05c40-0f09-4537-9936-6dcae96a43bf)
+
+
 
 6. How do average low prices vary across time, and what role do price ranges play?
 
