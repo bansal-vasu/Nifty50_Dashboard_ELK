@@ -32,4 +32,13 @@ The dataset contains detailed trading information for various equities (EQ) over
 
 ![Eleastic_dashboard](https://github.com/user-attachments/assets/d7b016c9-634e-4ca9-b661-2ac1606e24dd)
 
+The **video below** highlights the dynamic and interactive capabilities of a dashboard developed using the ELK Stack (Elasticsearch, Logstash, and Kibana). It emphasizes how users can leverage a range of controls and filters to interact with the dataset in real time, making data exploration intuitive and efficient.
+
+By applying various filters—such as timestamps to focus on specific periods, geographic states for regional insights, and subcategories for granular analysis—the dashboard instantly updates to display data that matches the selected criteria. These filters ensure that users can narrow down vast datasets to pinpoint relevant information effortlessly.
+
+The dashboard incorporates user-friendly controls, including dropdown menus for quick selection, sliders for precise adjustments, and other interactive elements that allow for seamless customization. This ensures that users can tailor the dashboard view to their unique analytical needs without requiring technical expertise.
+
+Such interactive approach empowers users to explore data from multiple dimensions, uncover patterns, and derive actionable insights. By simplifying complex data queries and visualization, the dashboard becomes a robust tool for informed, data-driven decision-making across various use cases and industries.
+
+[Elastic.webm](https://github.com/user-attachments/assets/f0715d79-625a-4902-b97f-a3f9e70a912c)
 
