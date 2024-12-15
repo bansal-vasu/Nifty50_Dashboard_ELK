@@ -144,3 +144,43 @@ Post-12:45, the average low prices begin to diverge again, suggesting volatility
 ![ELK 6](https://github.com/user-attachments/assets/439e478e-e0b2-4e7a-9682-f357b44cf0d1)
 
 <br>
+
+7. How does the median closing price relate to the highest and lowest closing prices observed in the dataset? Are there outliers influencing the mean significantly compared to the median?
+
+**Median of Close**
+
+This graph displays the median of the closing prices of the stock over the dataset's time period, which is 573.75.
+
+The median value is accompanied by the median volume, which is 522,809. This represents the middle value of trading volumes, indicating a typical level of trading activity without being skewed by extremely high or low values.
+
+In the dataset, the close prices range from 436 to 1,102.4, making the median a central and more reliable measure for summarizing stock performance.
+
+![ELK 7](https://github.com/user-attachments/assets/f9a3b0e0-2150-4f62-b729-cb1aadbce3d0)
+
+<br>
+
+8. Is there a trend in the deliverable percentage over time? Does it increase during periods of higher volume or closing price volatility?
+
+**Deliverables Gauge**
+
+This gauge graph focuses on the average deliverables, which is 0.287 (or 28.7% of the total traded volume). Deliverables measure the percentage of shares delivered for settlement compared to the total shares traded.
+
+A low deliverable percentage indicates more speculative trading (e.g., intraday trades or high liquidity without long-term holding intent).
+
+The benchmark of 0.5 suggests that the deliverable percentage is significantly lower than what might be expected for a stock with long-term investor interest.
+
+![ELK 8](https://github.com/user-attachments/assets/c682f104-e63a-4ba5-83c2-05d557ccb9b8)
+
+<br>
+
+9. How frequently does the closing price reach or exceed the upper benchmark of 750, and what factors (e.g., volume or market trends) contribute to these occurrences?
+
+**Closing Price Benchmarking**
+
+This bar graph compares the closing price of 436 against a range benchmark of 0–750. The closing price falls below the midpoint of the range (375), suggesting relatively weaker performance compared to a defined upper benchmark.
+
+When compared to the dataset, the closing price of 436 is significantly lower than the maximum closing price (1,102.4). The benchmark graph helps visualize how the stock performs within a predefined range.
+
+![ELK 9](https://github.com/user-attachments/assets/0f1d98fd-8db9-42a4-88f3-9361421e79dd)
+
+<br>
