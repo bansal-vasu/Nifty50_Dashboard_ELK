@@ -9,3 +9,20 @@ By incorporating trends from daily trades and deliverables, the dashboard enable
 ## Dataset Description
 
 [Dataset Source](https://www.kaggle.com/datasets/rohanrao/nifty50-stock-market-data)
+
+The dataset contains detailed trading information for various equities (EQ) over multiple trading sessions. It provides a comprehensive view of stock performance, covering a variety of critical metrics and enabling in-depth analysis of market trends, trading activity, and price movements. Below is a holistic breakdown of the dataset:
+
+**Dataset Columns**
+ - **Symbol:** The ticker symbol representing the equity being traded.
+ - **Series:** Indicates the market series for the equity, which is "EQ" (Equity).
+ - **Previous Close:** The closing price of the stock from the previous trading session, serving as a reference point for the current day.
+ - **Open:** The price at which the stock started trading for the day.
+ - **High:** The highest price the stock reached during the trading session.
+ - **Low:** The lowest price the stock reached during the trading session.
+ - **Last:** The last traded price of the stock before the market closed.
+ - **Close:** The official closing price of the stock at the end of the trading session.
+ - **VWAP (Volume-Weighted Average Price):** A critical metric that reflects the average price of the stock weighted by the total trading volume during the session.
+ - **Volume:** The total number of shares traded during the session, indicating liquidity and market activity.
+ - **Trades:** The number of individual transactions that occurred during the trading session.
+ - **Deliverable Volume:** The number of shares out of the total volume that were marked for delivery (actual transfer of shares post-trade), representing long-term interest in the stock.
+ - **Deliverables:** A ratio of the deliverable volume to the total traded volume, expressed as a fraction or percentage. This indicates the proportion of trades intended for actual settlement versus speculative trading.
