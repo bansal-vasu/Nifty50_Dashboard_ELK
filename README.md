@@ -28,7 +28,7 @@ The dataset contains detailed trading information for various equities (EQ) over
  - **Deliverable Volume:** The number of shares out of the total volume that were marked for delivery (actual transfer of shares post-trade), representing long-term interest in the stock.
  - **Deliverables:** A ratio of the deliverable volume to the total traded volume, expressed as a fraction or percentage. This indicates the proportion of trades intended for actual settlement versus speculative trading.
 
-**Dashboard**
+## Dashboard
 
 ![Eleastic_dashboard](https://github.com/user-attachments/assets/d7b016c9-634e-4ca9-b661-2ac1606e24dd)
 
@@ -218,3 +218,21 @@ The graph provides a visual representation of the variability in the deliverable
  - **Deliverables Gauge:** The average deliverables, or the percentage of shares delivered for settlement compared to the total shares traded, is 28.7%, which is significantly lower than the benchmark of 50%, suggesting more speculative trading activity.
  - **Closing Price Benchmarking:** The closing price of 436 falls below the midpoint of the defined range of 0-750, indicating relatively weaker performance compared to the upper benchmark, which the stock has only reached occasionally based on the data.
  - **Deliverable Volume Share:** The deliverable volume share exhibits significant fluctuations, ranging from around 0.15% to over 0.60%, indicating variable trading patterns and liquidity for the stock.
+
+## Managerial Insights
+
+ - Closely monitor short-term price volatility and fluctuations in average low and high prices to identify potential market opportunities or risks.
+   
+ - Analyze trading volume patterns across 3-minute intervals to pinpoint periods of heightened market activity, which could signal important events or investor sentiment shifts.
+   
+ - Examine the trend and distribution of deliverable volumes over time to gauge the level of long-term investor interest versus speculative trading activity.
+   
+ - Utilize the moving average of deliverable volumes to identify gradual improvements in market confidence and participation.
+   
+ - Leverage the positive correlation between open and close prices to anticipate potential price movements and develop more effective trading strategies.
+   
+ - Assess average price range variations to understand evolving market dynamics and identify periods of convergence and divergence, which could inform risk management and hedging decisions.
+
+## Conclusion
+
+The comprehensive dataset provides various insights that can inform various managerial decisions and trading strategies. By analyzing price trends, trading volumes, deliverable volumes, and the relationship between open and close prices, managers can gain a deeper understanding of the stock's performance, market sentiment, and investor behavior. These insights can be used to identify opportunities, mitigate risks, and optimize trading activities. Additionally, the benchmarking and comparison tools, such as the median closing price and the deliverables gauge, offer valuable context for evaluating the stock's positioning within the market. Ultimately, this multifaceted analysis enables managers to make more informed and data-driven decisions to enhance the overall performance and strategic positioning of the business.
