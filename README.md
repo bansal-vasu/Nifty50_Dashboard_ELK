@@ -206,6 +206,8 @@ The graph provides a visual representation of the variability in the deliverable
 
 ![ELK 10](https://github.com/user-attachments/assets/a84f436b-c998-4beb-aa10-2d9c95fc8c11)
 
+<br>
+
 **Summary of Insights:**
 
  - **Price Trends:** Identify fluctuations in average price trends and volatility over short intervals.
