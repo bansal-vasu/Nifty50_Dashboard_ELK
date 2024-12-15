@@ -1,10 +1,11 @@
 # Nifty50 Stock Analysis Dashboard
 
+![et-analysis-stocks-excluded-from-nifty-50-outperform-those-included](https://github.com/user-attachments/assets/79b9af1c-2a19-4209-8268-7e23c46e4708)
+
+
 The Stock Price Analysis Dashboard is a powerful tool designed to visualize and analyze trading data for various equities. Leveraging a structured dataset, the dashboard provides key insights into stock performance over multiple trading sessions. This dataset includes vital details such as the opening and closing prices, daily highs and lows, trading volumes, deliverable volumes, and the volume-weighted average price (VWAP).
 
 By incorporating trends from daily trades and deliverables, the dashboard enables traders, analysts, and investors to make informed decisions. It also highlights changes in stock behavior, including significant price fluctuations and market activity patterns. This tool is an essential resource for tracking stock performance and identifying opportunities in dynamic financial markets.
-
-![Eleastic_dashboard](https://github.com/user-attachments/assets/d7b016c9-634e-4ca9-b661-2ac1606e24dd)
 
 ## Dataset Description
 
@@ -26,3 +27,9 @@ The dataset contains detailed trading information for various equities (EQ) over
  - **Trades:** The number of individual transactions that occurred during the trading session.
  - **Deliverable Volume:** The number of shares out of the total volume that were marked for delivery (actual transfer of shares post-trade), representing long-term interest in the stock.
  - **Deliverables:** A ratio of the deliverable volume to the total traded volume, expressed as a fraction or percentage. This indicates the proportion of trades intended for actual settlement versus speculative trading.
+
+**Dashboard**
+
+![Eleastic_dashboard](https://github.com/user-attachments/assets/d7b016c9-634e-4ca9-b661-2ac1606e24dd)
+
+
