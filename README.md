@@ -32,6 +32,15 @@ The dataset contains detailed trading information for various equities (EQ) over
 
 ![Eleastic_dashboard](https://github.com/user-attachments/assets/d7b016c9-634e-4ca9-b661-2ac1606e24dd)
 
+**Applications of the Dashboard**
+ - **Trading Strategy Development:** Build trading strategies based on volatility, liquidity, and volume metrics.
+   
+ - **Investment Decisions:** Use deliverable volume ratios to identify stocks with high investor interest.
+   
+ - **Market Sentiment Analysis:** Assess trends over time to infer market sentiment and predict future performance.
+   
+ - **Quantitative Modeling:** Use historical data to develop predictive models for stock price and volume movements.
+
 The **video below** highlights the dynamic and interactive capabilities of a dashboard developed using the ELK Stack (Elasticsearch, Logstash, and Kibana). It emphasizes how users can leverage a range of controls and filters to interact with the dataset in real time, making data exploration intuitive and efficient.
 
 By applying various filters—such as timestamps to focus on specific periods, geographic states for regional insights, and subcategories for granular analysis—the dashboard instantly updates to display data that matches the selected criteria. These filters ensure that users can narrow down vast datasets to pinpoint relevant information effortlessly.
@@ -184,3 +193,28 @@ When compared to the dataset, the closing price of 436 is significantly lower th
 ![ELK 9](https://github.com/user-attachments/assets/0f1d98fd-8db9-42a4-88f3-9361421e79dd)
 
 <br>
+
+10. What factors may be contributing to the observed fluctuations in the deliverable volume share over time, and how could this information be used to inform trading strategies or market analysis?
+
+**Deliverable Volume Share**
+
+The deliverable volume share fluctuates significantly across the trading days, ranging from around 0.15% to over 0.60%.
+
+There appear to be periods of relatively higher deliverable volume share, such as the range between 0.40% and 0.60%, as well as periods of lower deliverable volume share, below 0.30%.
+
+The graph provides a visual representation of the variability in the deliverable volume share, which could be useful for understanding trading patterns and liquidity for the stock.
+
+![ELK 10](https://github.com/user-attachments/assets/a84f436b-c998-4beb-aa10-2d9c95fc8c11)
+
+**Summary of Insights:**
+
+ - **Price Trends:** Identify fluctuations in average price trends and volatility over short intervals.
+ - **Trading Volume:** Highlight intervals with peak and declining trading activity.
+ - **Deliverable Volume:** Assess periods where deliverable volumes are higher or lower, providing insights into investor sentiment.
+ - **Moving Average of Volume Deliverables:** Gradual and stable increase in deliverable volumes over time indicates rising market participation.
+ - **Open vs Close Price Correlation:** A strong positive correlation between open and close prices shows price consistency.
+ - **Average Price Range Analysis:** Price trends display early volatility, followed by stabilization and subsequent divergence, signaling market fluctuations.
+ - **Median of Close:** The median closing price of the stock is 573.75, which represents a central and more reliable measure of stock performance compared to the full range of closing prices from 436 to 1,102.4.
+ - **Deliverables Gauge:** The average deliverables, or the percentage of shares delivered for settlement compared to the total shares traded, is 28.7%, which is significantly lower than the benchmark of 50%, suggesting more speculative trading activity.
+ - **Closing Price Benchmarking:** The closing price of 436 falls below the midpoint of the defined range of 0-750, indicating relatively weaker performance compared to the upper benchmark, which the stock has only reached occasionally based on the data.
+ - **Deliverable Volume Share:** The deliverable volume share exhibits significant fluctuations, ranging from around 0.15% to over 0.60%, indicating variable trading patterns and liquidity for the stock.
